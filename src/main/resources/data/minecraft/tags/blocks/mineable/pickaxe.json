@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "keithcraft:tin_block",
+    "keithcraft:raw_tin_block",
+    "keithcraft:tin_ore",
+    "keithcraft:deepslate_tin_ore"
+  ]
+}
