@@ -2,5 +2,10 @@
   "item.keithcraft.tin_ingot": "Tin Ingot",
   "item.keithcraft.raw_tin": "Raw Tin",
 
+  "block.keithcraft.tin_block": "Block of Tin",
+  "block.keithcraft.tin_ore": "Tin Ore",
+  "block.keithcraft.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.keithcraft.raw_tin_block": "Block of Raw Tin",
+
   "creativemodtab.keithcraft_tab": "KeithCraft"
 }

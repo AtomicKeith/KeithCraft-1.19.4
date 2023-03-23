@@ -1,6 +1,7 @@
 package net.atomickeith.keithcraft;
 
 import com.mojang.logging.LogUtils;
+import net.atomickeith.keithcraft.block.ModBlocks;
 import net.atomickeith.keithcraft.item.ModCreativeModTabs;
 import net.atomickeith.keithcraft.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -25,6 +26,7 @@ public class KeithCraft {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -43,9 +45,23 @@ public class KeithCraft {
             event.accept(ModItems.TIN_INGOT);
         }
 
+        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TIN_BLOCK);
+        }
+
+        if(event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.RAW_TIN_BLOCK);
+            event.accept(ModBlocks.TIN_ORE);
+            event.accept(ModBlocks.DEEPSLATE_TIN_ORE);
+        }
+
         if(event.getTab() == ModCreativeModTabs.KEITHCRAFT_TAB) {
             event.accept(ModItems.RAW_TIN);
             event.accept(ModItems.TIN_INGOT);
+            event.accept(ModBlocks.TIN_BLOCK);
+            event.accept(ModBlocks.RAW_TIN_BLOCK);
+            event.accept(ModBlocks.TIN_ORE);
+            event.accept(ModBlocks.DEEPSLATE_TIN_ORE);
         }
     }
 
