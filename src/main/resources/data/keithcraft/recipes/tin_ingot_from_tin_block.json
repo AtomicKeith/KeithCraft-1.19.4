@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tin_ingot",
+  "ingredients": [
+    {
+      "item": "keithcraft:tin_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "keithcraft:tin_ingot"
+  }
+}
