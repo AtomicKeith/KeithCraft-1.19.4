@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "keithcraft:raw_tin"
+      "item": "keithcraft:tin_ingot"
     }
   },
   "pattern": [
@@ -12,7 +12,7 @@
     "###"
   ],
   "result": {
-    "item": "keithcraft:raw_tin_block"
+    "item": "keithcraft:tin_block"
   },
   "show_notification": true
 }

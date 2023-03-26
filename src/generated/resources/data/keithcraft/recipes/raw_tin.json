@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "keithcraft:raw_tin_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "keithcraft:raw_tin"
+  }
+}

@@ -1,0 +1,13 @@
+// 1.19.4	2023-03-25T21:32:04.7088059	Block States: keithcraft
+ab9c91ddcd46f759f357065716a1d9ecd20370f9 assets/keithcraft/blockstates/deepslate_tin_ore.json
+fded4884f219dfaf2c58ef34841e211644cf2c11 assets/keithcraft/blockstates/raw_tin_block.json
+75e721668f562ec7d8e6721dc9f88845d0390f0a assets/keithcraft/blockstates/tin_block.json
+ebb9e6a46d5b533977f37eaea4691bea929d1a36 assets/keithcraft/blockstates/tin_ore.json
+412475f95a5fd381d036f253c85cbd63eb02545f assets/keithcraft/models/block/deepslate_tin_ore.json
+a46cc1cfc7a6233235907267115acc188716a6b2 assets/keithcraft/models/block/raw_tin_block.json
+8406bc36afd4b06444eb56e0bfa7cc66996ae757 assets/keithcraft/models/block/tin_block.json
+9ab60cefd1a2185500c5d7498730262ba6e347cd assets/keithcraft/models/block/tin_ore.json
+8075dd02f40f246756e354c9d6b6514215db1932 assets/keithcraft/models/item/deepslate_tin_ore.json
+313300980b85042ee9d926033fabea6791bd98d7 assets/keithcraft/models/item/raw_tin_block.json
+0d7a1211610036afb627872c23a4a265de156bb2 assets/keithcraft/models/item/tin_block.json
+999edff56b758c37cbdbe6ba547db90a984027b8 assets/keithcraft/models/item/tin_ore.json

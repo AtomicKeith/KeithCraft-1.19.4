@@ -50,18 +50,18 @@ public class KeithCraft {
         }
 
         if(event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
-            event.accept(ModBlocks.RAW_TIN_BLOCK);
             event.accept(ModBlocks.TIN_ORE);
             event.accept(ModBlocks.DEEPSLATE_TIN_ORE);
+            event.accept(ModBlocks.RAW_TIN_BLOCK);
         }
 
         if(event.getTab() == ModCreativeModTabs.KEITHCRAFT_TAB) {
-            event.accept(ModItems.RAW_TIN);
-            event.accept(ModItems.TIN_INGOT);
-            event.accept(ModBlocks.TIN_BLOCK);
-            event.accept(ModBlocks.RAW_TIN_BLOCK);
             event.accept(ModBlocks.TIN_ORE);
             event.accept(ModBlocks.DEEPSLATE_TIN_ORE);
+            event.accept(ModItems.RAW_TIN);
+            event.accept(ModBlocks.RAW_TIN_BLOCK);
+            event.accept(ModItems.TIN_INGOT);
+            event.accept(ModBlocks.TIN_BLOCK);
         }
     }
 
