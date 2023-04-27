@@ -23,6 +23,16 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 (block) -> createOreDrop(ModBlocks.TIN_ORE.get(), ModItems.RAW_TIN.get()));
         add(ModBlocks.DEEPSLATE_TIN_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.DEEPSLATE_TIN_ORE.get(), ModItems.RAW_TIN.get()));
+
+        this.dropSelf(ModBlocks.WISTERIA_LOG.get());
+        this.dropSelf(ModBlocks.WISTERIA_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_WISTERIA_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_WISTERIA_WOOD.get());
+        this.dropSelf(ModBlocks.WISTERIA_PLANKS.get());
+        this.dropSelf(ModBlocks.WISTERIA_SAPLING.get());
+
+        this.add(ModBlocks.WISTERIA_LEAVES.get(), (block) ->
+                createLeavesDrops(block, ModBlocks.WISTERIA_LEAVES.get(), NORMAL_LEAVES_SAPLING_CHANCES));
     }
 
     @Override

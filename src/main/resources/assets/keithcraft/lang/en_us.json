@@ -6,6 +6,13 @@
   "block.keithcraft.tin_ore": "Tin Ore",
   "block.keithcraft.deepslate_tin_ore": "Deepslate Tin Ore",
   "block.keithcraft.raw_tin_block": "Block of Raw Tin",
+  "block.keithcraft.wisteria_log": "Wisteria Log",
+  "block.keithcraft.wisteria_wood": "Wisteria Wood",
+  "block.keithcraft.stripped_wisteria_log": "Stripped Wisteria Log",
+  "block.keithcraft.stripped_wisteria_wood": "Stripped Wisteria Wood",
+  "block.keithcraft.wisteria_planks": "Wisteria Planks",
+  "block.keithcraft.wisteria_leaves": "Wisteria Leaves",
+  "block.keithcraft.wisteria_sapling": "Wisteria Sapling",
 
   "creativemodtab.keithcraft_tab": "KeithCraft"
 }

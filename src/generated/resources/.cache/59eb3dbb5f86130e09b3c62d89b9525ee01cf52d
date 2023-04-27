@@ -1,5 +1,12 @@
-// 1.19.4	2023-03-25T21:32:04.7058124	Loot Tables
+// 1.19.4	2023-03-29T22:03:34.1161792	Loot Tables
 8963347e65b170da269136dde1065f93ecd14523 data/keithcraft/loot_tables/blocks/deepslate_tin_ore.json
 c36ffade8bec1f31d8a91094c5d3b16061d4f19a data/keithcraft/loot_tables/blocks/raw_tin_block.json
+9dcc221b7b423d3639965df9720a336ee0bd0ab3 data/keithcraft/loot_tables/blocks/stripped_wisteria_log.json
+2d2736e8772fad5a4510b9d1017944e05bc33f13 data/keithcraft/loot_tables/blocks/stripped_wisteria_wood.json
 1702570d34c5561526ecaf4e45cf01de4096435a data/keithcraft/loot_tables/blocks/tin_block.json
 eed04d9152f8282ee1ee1642b9c07ebe7429ddbe data/keithcraft/loot_tables/blocks/tin_ore.json
+b7235c34136718e95b9dbacb37136e946a466864 data/keithcraft/loot_tables/blocks/wisteria_leaves.json
+50c6f80fe085261c43ad6613815e88b7f628fefb data/keithcraft/loot_tables/blocks/wisteria_log.json
+384400e7bb16f39c69ca420c04304e239f9ac86e data/keithcraft/loot_tables/blocks/wisteria_planks.json
+e88b5956e83a0316dda891d280a64675ac45d4ea data/keithcraft/loot_tables/blocks/wisteria_sapling.json
+7587461ebf6fe4c5a0fa78dcb3a86567b58fc215 data/keithcraft/loot_tables/blocks/wisteria_wood.json

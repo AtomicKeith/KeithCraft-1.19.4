@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "keithcraft:block/stripped_wisteria_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "keithcraft:block/stripped_wisteria_wood"
+    },
+    "axis=z": {
+      "model": "keithcraft:block/stripped_wisteria_wood_horizontal",
+      "x": 90
+    }
+  }
+}

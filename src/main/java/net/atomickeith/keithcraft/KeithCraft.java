@@ -46,6 +46,11 @@ public class KeithCraft {
         }
 
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.WISTERIA_LOG);
+            event.accept(ModBlocks.WISTERIA_WOOD);
+            event.accept(ModBlocks.STRIPPED_WISTERIA_LOG);
+            event.accept(ModBlocks.STRIPPED_WISTERIA_WOOD);
+            event.accept(ModBlocks.WISTERIA_PLANKS);
             event.accept(ModBlocks.TIN_BLOCK);
         }
 
@@ -53,6 +58,9 @@ public class KeithCraft {
             event.accept(ModBlocks.TIN_ORE);
             event.accept(ModBlocks.DEEPSLATE_TIN_ORE);
             event.accept(ModBlocks.RAW_TIN_BLOCK);
+            event.accept(ModBlocks.WISTERIA_LOG);
+            event.accept(ModBlocks.WISTERIA_LEAVES);
+            event.accept(ModBlocks.WISTERIA_SAPLING);
         }
 
         if(event.getTab() == ModCreativeModTabs.KEITHCRAFT_TAB) {
@@ -62,6 +70,13 @@ public class KeithCraft {
             event.accept(ModBlocks.RAW_TIN_BLOCK);
             event.accept(ModItems.TIN_INGOT);
             event.accept(ModBlocks.TIN_BLOCK);
+            event.accept(ModBlocks.WISTERIA_LOG);
+            event.accept(ModBlocks.WISTERIA_WOOD);
+            event.accept(ModBlocks.STRIPPED_WISTERIA_LOG);
+            event.accept(ModBlocks.STRIPPED_WISTERIA_WOOD);
+            event.accept(ModBlocks.WISTERIA_PLANKS);
+            event.accept(ModBlocks.WISTERIA_LEAVES);
+            event.accept(ModBlocks.WISTERIA_SAPLING);
         }
     }
 

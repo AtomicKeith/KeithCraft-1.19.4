@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "keithcraft:wisteria_log",
+    "keithcraft:wisteria_wood",
+    "keithcraft:stripped_wisteria_log",
+    "keithcraft:stripped_wisteria_wood"
+  ]
+}

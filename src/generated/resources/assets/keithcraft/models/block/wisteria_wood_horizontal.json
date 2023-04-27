@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "keithcraft:block/wisteria_log",
+    "side": "keithcraft:block/wisteria_log"
+  }
+}
